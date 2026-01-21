@@ -11,54 +11,55 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Beijing Institude of Technology, 2026~2030 (expected)
+* M.S. in System Science, Wuhan University of Science and Technology, 2023~2026
+* B.S. in Finance, Hubei University of Economics , 2018~2022
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+# Work experience
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sept 2025 – Nov 2025: Large Language Model Research Intern
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+  * Eastern Institute of Technology (EIT)
+  * Duties included: Research on efficient inference methods for large language models; interpretability analysis of reasoning processes
+  * Achievement: First author of a research paper on reasoning interpretability
+  * Supervisor: Prof. Xiaoyu Shen
+
+* Apr 2025 – Sept 2025: LLM Algorithm Intern
+
+  * Gongdao Network Technology
+  * Duties included: Studying interpretability of spoken text representations across BERT and decoder-only architectures; building automated audio processing pipelines; developing pitch recognition methods for TTS error correction; fine-tuning BGE embedding models for RAG and implementing model distillation engineering
+
+* Sept 2024 – Apr 2025: Research Intern
+
+  * Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences
+  * Duties included: Participating in multiple LLM research projects; researching AI safety topics including red teaming and jailbreak attacks for LLMs and multimodal models
+  * Achievement: First author of a paper on LLM distillation detection, accepted by ACL 2025 (Main Conference); a first-author paper on the topic of LLMs jailbreaking methods is under reviewing.
+  * Supervisor: Prof. Min Yang
+
+
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
