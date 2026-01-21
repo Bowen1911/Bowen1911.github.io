@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -24,12 +24,12 @@ author:
   # Biographic information
   avatar           : "avatar1.png"
   name             : "Sunbowen Lee (李孙博闻)"
-  pronouns         : "he/his"  
-  bio              : "PhD student in computer science"
+  pronouns         : "he/his"
+  bio              : "PhD student in computer science | AI | LLMs"
   location         : "Hubei, China"
   employer         : "Beijing Institude of Technology"
   uri              : # URL
-  email            : "bw1863@outlook.com" 
+  email            : "bw1863@outlook.com"
 
   # Academic websites
   academia         : "https://bowen1911.github.io/"
@@ -51,8 +51,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "bowen1911"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
@@ -86,7 +86,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
