@@ -16,27 +16,23 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
 ## 📄 First Author
 
 * **[Probing the Difficulty Perception Mechanism of Large Language Models](https://arxiv.org/abs/2510.05969)**
-    * *arXiv preprint arXiv:2510.05969*
+    * arXiv preprint arXiv:2510.05969, 2025
     * **Sunbowen Lee**, Qingyu Yin, Chak Tou Leong, Jialiang Zhang, Yicheng Gong, Shiwen Ni, Min Yang, Xiaoyu Shen
-    * 2025
 
 * **[Quantification of large language model distillation](https://aclanthology.org/2025.acl-long.248/)**
-    * *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*
+    * ACL main, 2025
     * **Sunbowen Lee**, Junting Zhou, Chang Ao, Kaige Li, Xeron Du, Sirui He, Haihong Wu, Tianci Liu, Jiaheng Liu, Hamid Alinejad-Rokny, et al.
-    * 2025
 
 * **[xjailbreak: Representation space guided reinforcement learning for interpretable LLMs jailbreaking](https://arxiv.org/abs/2501.16727)**
-    * *arXiv preprint arXiv:2501.16727*
+    * arXiv preprint arXiv:2501.16727, 2025
     * **Sunbowen Lee**, Shiwen Ni, Chi Wei, Shuaimin Li, Liyang Fan, Ahmadreza Argha, Hamid Alinejad-Rokny, Ruifeng Xu, Yicheng Gong, Min Yang
-    * 2025
 
 * **[Counterfactual experience augmented off-policy reinforcement learning](https://www.sciencedirect.com/science/article/abs/pii/S0925231225006897)**
-    * *Neurocomputing*
+    * Neurocomputing, 2024
     * **Sunbowen Lee**, Yicheng Gong, Chao Deng
-    * 2025
 
 * **[MacLight: Multi-scene Aggregation Convolutional Learning for Traffic Signal Control](https://dl.acm.org/doi/10.5555/3709347.3743758)**
-    * *AAMAS '25: Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems*
+    * AAMAS main, 2025
     * **Sunbowen Lee**, Hongqin Lyu, Yicheng Gong, Yingying Sun, Chao Deng
     * 2024
 
@@ -44,22 +40,25 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
 
 ## 👥 Collaboration
 
+* **[Finding RELIEF: Shaping Reasoning Behavior without Reasoning Supervision via Belief Engineering](https://arxiv.org/abs/2601.13752)**
+  * ACL Findings, 2026
+  * Chak Tou Leong, Dingwei Chen, Heming Xia, Qingyu Yin, **Sunbowen Lee**, Jian Wang, Wenjie Li
+
 * **[Evaluating Parameter Efficient Methods for RLVR](https://arxiv.org/abs/2512.23165v2)**
-    * *arXiv preprint arXiv:2512.23165*
+    * arXiv preprint arXiv:2512.23165, 2025
     * Qingyu Yin, Yulun Wu, Zhennan Shen, **Sunbowen Lee**, Zhilin Wang, Yanshu Li, Chak Tou Leong, Jiale Kang, Jinjin Gu
-    * 2025
 
 * **[PoolingVQ: A VQVAE Variant for Reducing Audio Redundancy and Boosting Multi-Modal Fusion in Music Emotion Analysis](https://arxiv.org/abs/2509.11976)**
-    * *arXiv preprint arXiv:2509.11976*
+    * arXiv preprint arXiv:2509.11976, 2025
     * Dinghao Zou, Yicheng Gong, Xiaokang Li, Xin Cao, **Sunbowen Lee**
-    * 2025
 
 * **[Emoanti: audio anti-deepfake with refined emotion-guided representations](https://arxiv.org/abs/2509.10781)**
-    * *arXiv preprint arXiv:2509.10781*
+    * arXiv preprint arXiv:2509.10781, 2025
     * Xiaokang Li, Yicheng Gong, Dinghao Zou, Xin Cao, **Sunbowen Lee**
-    * 2025
 
 # 🔬 Internship Experience
+
+* **Tencent** \| Applied Research (April 2026 - )
 
 * **Eastern Institute of Technology (EIT)** \| *Large Language Model Research Intern* (Sept 2025 – Nov 2025)
     * Research Focus: Efficient inference for LLMs under Prof. Xiaoyu Shen.
