@@ -45,7 +45,7 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
   * Chak Tou Leong, Dingwei Chen, Heming Xia, Qingyu Yin, **Sunbowen Lee**, Jian Wang, Wenjie Li
 
 * **[Evaluating Parameter Efficient Methods for RLVR](https://arxiv.org/abs/2512.23165v2)**
-    * arXiv preprint arXiv:2512.23165, 2025
+    * ICML 2026, arXiv preprint arXiv:2512.23165, 2025
     * Qingyu Yin, Yulun Wu, Zhennan Shen, **Sunbowen Lee**, Zhilin Wang, Yanshu Li, Chak Tou Leong, Jiale Kang, Jinjin Gu
 
 * **[PoolingVQ: A VQVAE Variant for Reducing Audio Redundancy and Boosting Multi-Modal Fusion in Music Emotion Analysis](https://arxiv.org/abs/2509.11976)**
