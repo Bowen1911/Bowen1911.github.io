@@ -60,6 +60,8 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
 
 * **Tencent** \| Applied Research (April 2026 - )
 
+WeChat Basic Large Language Model (WeLM) Post-Training R&D.
+
 * **Eastern Institute of Technology (EIT)** \| *Large Language Model Research Intern* (Sept 2025 – Nov 2025)
     * Research Focus: Efficient inference for LLMs under Prof. Xiaoyu Shen.
     * Achievement: First author of a research paper on interpretability of reasoning.
