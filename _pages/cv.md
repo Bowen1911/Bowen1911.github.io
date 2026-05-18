@@ -359,40 +359,6 @@ redirect_from:
     color: var(--accent);
   }
 
-  /* Print hint */
-  .print-hint {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: var(--primary);
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    font-size: 13px;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .print-hint button {
-    background: var(--accent);
-    color: white;
-    border: none;
-    padding: 6px 20px;
-    border-radius: 4px;
-    font-size: 13px;
-    cursor: pointer;
-  }
-
-  .print-hint .close-hint {
-    background: transparent;
-    border: 0.5px solid rgba(255,255,255,0.4);
-    padding: 6px 14px;
-  }
-
   @media (max-width: 640px) {
     .page { padding: 20px 16px; }
     .header { flex-direction: column; gap: 10px; }
@@ -405,6 +371,11 @@ redirect_from:
 </style>
 </head>
 <body>
+
+<div style="text-align:center;padding:10px 0 6px;">
+  <a href="https://bowen1911.github.io/_pages/cv.html" target="_blank" rel="noopener" style="display:inline-block;padding:7px 24px;background:var(--primary);color:#fff;border-radius:5px;text-decoration:none;font-size:13px;font-weight:500;transition:opacity .2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">🖨️ 打印简历</a>
+</div>
+
 <div class="page">
 
   <div class="header">
@@ -688,29 +659,6 @@ redirect_from:
   </div>
 
 </div>
-
-<div class="print-hint" id="printHint">
-  <span>打印提示：请在打印设置中取消勾选「页眉和页脚」以去除页码</span>
-  <button onclick="printResume()">打印简历</button>
-  <button class="close-hint" onclick="document.getElementById('printHint').style.display='none'">关闭</button>
-</div>
-
-<script>
-function printResume() {
-  const resumeEl = document.querySelector('.page');
-  if (!resumeEl) return;
-  const styles = document.querySelectorAll('style, link[rel="stylesheet"]');
-  let styleHtml = '';
-  styles.forEach(s => { styleHtml += s.outerHTML; });
-  const win = window.open('', '_blank');
-  win.document.write(`<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">${styleHtml}</head><body>${resumeEl.outerHTML}</body></html>`);
-  win.document.close();
-  win.onload = function() { win.print(); win.close(); };
-}
-
-// 暴露到 window，供父页面调用：window.printResume() 或 document.querySelector('iframe').contentWindow.printResume()
-window.printResume = printResume;
-</script>
 
 </body>
 </html>
