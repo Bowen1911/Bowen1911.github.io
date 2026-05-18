@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -690,9 +691,26 @@ redirect_from:
 
 <div class="print-hint" id="printHint">
   <span>打印提示：请在打印设置中取消勾选「页眉和页脚」以去除页码</span>
-  <button onclick="window.print()">打印</button>
+  <button onclick="printResume()">打印简历</button>
   <button class="close-hint" onclick="document.getElementById('printHint').style.display='none'">关闭</button>
 </div>
+
+<script>
+function printResume() {
+  const resumeEl = document.querySelector('.page');
+  if (!resumeEl) return;
+  const styles = document.querySelectorAll('style, link[rel="stylesheet"]');
+  let styleHtml = '';
+  styles.forEach(s => { styleHtml += s.outerHTML; });
+  const win = window.open('', '_blank');
+  win.document.write(`<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">${styleHtml}</head><body>${resumeEl.outerHTML}</body></html>`);
+  win.document.close();
+  win.onload = function() { win.print(); win.close(); };
+}
+
+// 暴露到 window，供父页面调用：window.printResume() 或 document.querySelector('iframe').contentWindow.printResume()
+window.printResume = printResume;
+</script>
 
 </body>
 </html>
