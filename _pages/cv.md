@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
