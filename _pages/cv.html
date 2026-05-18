@@ -695,9 +695,6 @@ function printResume() {
   win.document.close();
   win.onload = function() { win.print(); win.close(); };
 }
-
-// 暴露到 window，供父页面调用：window.printResume() 或 document.querySelector('iframe').contentWindow.printResume()
-window.printResume = printResume;
 </script>
 
 </body>
