@@ -58,8 +58,7 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
 
 # 🔬 Internship Experience
 
-* **Tencent** \| Applied Research (April 2026 - )
-
+* **Tencent** \| *Applied Research* (April 2026 - )
     * WeChat base Large Language Model (WeLM) post-training R&D.
 
 * **Eastern Institute of Technology (EIT)** \| *Large Language Model Research Intern* (Sept 2025 – Nov 2025)
