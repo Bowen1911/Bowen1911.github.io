@@ -40,6 +40,10 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
 
 ## 👥 Collaboration
 
+* **[On the Geometry of On-Policy Distillation]([https://arxiv.org/abs/2601.13752](https://arxiv.org/abs/2606.07082))**
+  * arXiv preprint arXiv:2606.07082v3
+  * Zhennan Shen, Yanshu Li, Qingyu Yin, Chak Tou Leong, Zhilin Wang, Yanxu Chen, Rongduo Han, **Sunbowen Lee**, Yi R. Fung
+
 * **[Finding RELIEF: Shaping Reasoning Behavior without Reasoning Supervision via Belief Engineering](https://arxiv.org/abs/2601.13752)**
   * ACL Findings, 2026
   * Chak Tou Leong, Dingwei Chen, Heming Xia, Qingyu Yin, **Sunbowen Lee**, Jian Wang, Wenjie Li
