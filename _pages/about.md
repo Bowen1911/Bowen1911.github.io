@@ -40,7 +40,7 @@ My main focus is on cutting-edge artificial intelligence technologies such as la
 
 ## 👥 Collaboration
 
-* **[On the Geometry of On-Policy Distillation]([https://arxiv.org/abs/2601.13752](https://arxiv.org/abs/2606.07082))**
+* **[On the Geometry of On-Policy Distillation](https://arxiv.org/abs/2606.07082)**
   * arXiv preprint arXiv:2606.07082v3
   * Zhennan Shen, Yanshu Li, Qingyu Yin, Chak Tou Leong, Zhilin Wang, Yanxu Chen, Rongduo Han, **Sunbowen Lee**, Yi R. Fung
 
