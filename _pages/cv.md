@@ -98,6 +98,20 @@ redirect_from:
     color: var(--text-muted);
   }
 
+  .doctoral-info {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .doctoral-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-light);
+    white-space: nowrap;
+  }
+
   .header-right {
     text-align: right;
     font-size: 12.5px;
@@ -177,30 +191,6 @@ redirect_from:
     margin-bottom: 10px;
     padding-bottom: 4px;
     border-bottom: 1px solid var(--border);
-  }
-
-  /* Education */
-  .edu-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-  }
-
-  .edu-degree {
-    font-weight: 600;
-    font-size: 13px;
-    color: var(--text);
-  }
-
-  .edu-school {
-    color: var(--text-muted);
-    font-size: 12px;
-  }
-
-  .edu-date {
-    color: var(--text-light);
-    font-size: 11.5px;
-    font-family: 'JetBrains Mono', monospace;
   }
 
   /* Publications */
@@ -355,8 +345,9 @@ redirect_from:
   }
 
   .tag-accent {
-    background: var(--accent-light);
+    background: var(--card-bg);
     color: var(--accent);
+    border: 1px solid var(--accent);
   }
 
   @media (max-width: 640px) {
@@ -365,7 +356,6 @@ redirect_from:
     .header-right { text-align: left; }
     .summary-bar { flex-direction: column; gap: 6px; }
     .divider { display: none; }
-    .edu-grid { grid-template-columns: 1fr; }
     .exp-header { flex-direction: column; }
   }
 </style>
@@ -382,6 +372,10 @@ redirect_from:
     <div class="header-left">
       <h1>李孙博闻</h1>
       <div class="cn-name">Sunbowen Lee</div>
+      <div class="doctoral-info">
+        <div>博士，计算机科学与技术</div>
+        <div>北京理工大学，计算机学院 · <span class="doctoral-date">2026.9 – 2030.6</span></div>
+      </div>
     </div>
     <div class="header-right">
       <div class="contact-item">
@@ -397,8 +391,6 @@ redirect_from:
         北京·海淀
       </div>
       <div class="contact-item" style="margin-top:3px;">
-        <a href="https://bowen1911.github.io/" target="_blank">个人主页</a>
-        &middot;
         <a href="https://github.com/bowen1911" target="_blank">GitHub (300+ ★)</a>
         &middot;
         <a href="https://scholar.google.cz/citations?user=MplgzoIAAAAJ&hl=zh-CN" target="_blank">Scholar</a>
@@ -416,47 +408,18 @@ redirect_from:
     <div class="divider"></div>
     <div class="summary-item">
       <span class="summary-label">顶会</span>
-      <span class="summary-value">ACL 2025, ICML 2026, AAMAS 2025</span>
+      <span class="summary-value">ACL, ICML, AAMAS</span>
     </div>
     <div class="divider"></div>
     <div class="summary-item">
       <span class="summary-label">英语</span>
       <span class="summary-value">CET-6 516</span>
     </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">研究方向</div>
+    <div class="divider"></div>
     <div class="tags">
-      <span class="tag tag-accent">基模后训练</span>
-      <span class="tag tag-accent">大语言模型</span>
-      <span class="tag tag-accent">模型蒸馏</span>
-      <span class="tag tag-accent">AI 安全</span>
-      <span class="tag">可解释性</span>
-      <span class="tag">强化学习</span>
-      <span class="tag">高效推理</span>
-      <span class="tag">AI 音频</span>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">教育背景</div>
-    <div class="edu-grid">
-      <div>
-        <div class="edu-degree">博士，计算机科学与技术</div>
-        <div class="edu-school">北京理工大学，计算机学院</div>
-        <div class="edu-date">2026.9 – 2030.6</div>
-      </div>
-      <div>
-        <div class="edu-degree">硕士，系统科学</div>
-        <div class="edu-school">武汉科技大学，理学院</div>
-        <div class="edu-date">2023.9 – 2026.6</div>
-      </div>
-      <div>
-        <div class="edu-degree">学士，金融学</div>
-        <div class="edu-school">湖北经济学院，金融学院</div>
-        <div class="edu-date">2018.9 – 2022.6</div>
-      </div>
+      <span class="tag tag-accent">大模型后训练</span>
+      <span class="tag tag-accent">强化学习</span>
+      <span class="tag tag-accent">蒸馏</span>
     </div>
   </div>
 
@@ -617,28 +580,6 @@ redirect_from:
         <span class="exp-date">2024.9 – 2025.4</span>
       </div>
       <div class="exp-details">杨敏、倪仕文老师团队，研究大语言模型安全性与蒸馏检测，产出 ACL 2025 主会论文一篇、越狱攻击论文一篇。</div>
-    </div>
-
-    <div class="exp-item">
-      <div class="exp-header">
-        <div>
-          <span class="exp-company">武汉海云健康科技股份有限公司</span>
-          <span class="exp-role">数据挖掘项目</span>
-        </div>
-        <span class="exp-date">2024.2 – 2024.6</span>
-      </div>
-      <div class="exp-details">负责大数据分析与处理，主要完成数据清洗及特征工程构建。</div>
-    </div>
-
-    <div class="exp-item">
-      <div class="exp-header">
-        <div>
-          <span class="exp-company">北京金信网银金融信息服务有限公司</span>
-          <span class="exp-role">数据标注实习</span>
-        </div>
-        <span class="exp-date">2021.2 – 2021.6</span>
-      </div>
-      <div class="exp-details">基于词袋模型完成文本数据打标工作并实现脚本自动化。</div>
     </div>
   </div>
 
